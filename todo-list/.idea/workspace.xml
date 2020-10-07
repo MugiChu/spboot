@@ -14,17 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e88d2c7d-3384-44a9-ae4f-c530c5d872ce" name="Default Changelist" comment="spboot">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/controllers/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ToDo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/controllers/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +36,40 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="todo-list" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -64,8 +88,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager">
@@ -111,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601899112459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spboot">
+      <created>1601910056739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601910056739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spboot" />
@@ -134,29 +166,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1043" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601900801770" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1601908271759">
+    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog" timestamp="1602006570361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601908271759" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1601908271759">
+    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602006570361" />
+    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog" timestamp="1602006608889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601908271759" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1601908271758">
+    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602006608889" />
+    <state x="859" y="340" width="377" height="458" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1602006746131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601908271758" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1601908271759">
+    <state x="859" y="340" width="377" height="458" key="DBNavigator.ResultSetRecordViewerDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602006746131" />
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602006697582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601908271759" />
-    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1601899722608">
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602006697582" />
+    <state width="901" height="293" key="GridCell.Tab.0.bottom" timestamp="1601910999366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601899722608" />
-    <state x="658" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1601906218713">
+    <state width="901" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999366" />
+    <state width="901" height="293" key="GridCell.Tab.0.center" timestamp="1601910999365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601906218713" />
+    <state width="901" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999365" />
+    <state width="901" height="293" key="GridCell.Tab.0.left" timestamp="1601910999364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="901" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999364" />
+    <state width="901" height="293" key="GridCell.Tab.0.right" timestamp="1601910999365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="901" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999365" />
+    <state width="632" height="184" key="LargeValuePreview.QUERY" timestamp="1602005857523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="632" height="184" key="LargeValuePreview.QUERY/0.0.1920.1040@0.0.1920.1040" timestamp="1602005857523" />
+    <state x="459" y="290" key="SettingsEditor" timestamp="1602002131611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="290" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602002131611" />
+    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1601910062778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601910062778" />
+    <state x="658" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1601998257098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601998257098" />
   </component>
 </project>
