@@ -24,26 +24,25 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="4798c589-18d2-40f6-887d-559a72ce5d90">
-        <schema name="public" object-types="constraint, sequence, table, column, view, function, index, dataset trigger" />
+      <connection connection-id="62d9a6fb-3ae0-42b9-b025-dabdfc85ac58">
+        <schema name="public" object-types="index, view, sequence, function, table" />
+        <schema name="users" object-types="view, sequence, function, table" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="4798c589-18d2-40f6-887d-559a72ce5d90">
-      <console name="todo_base" type="STANDARD" schema="public" session="Main"><![CDATA[insert into todo_list(name, password)
-values ('Dima','qwerty007');]]></console>
+    <connection id="62d9a6fb-3ae0-42b9-b025-dabdfc85ac58">
+      <console name="Connection" type="STANDARD" schema="public" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="4798c589-18d2-40f6-887d-559a72ce5d90" />
+    <connection id="62d9a6fb-3ae0-42b9-b025-dabdfc85ac58" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="4798c589-18d2-40f6-887d-559a72ce5d90" dataset="public.todo_list" active-filter-id="" />
-    <filter-actions connection-id="4798c589-18d2-40f6-887d-559a72ce5d90" dataset="information_schema.sql_features" active-filter-id="" />
+    <filter-actions connection-id="62d9a6fb-3ae0-42b9-b025-dabdfc85ac58" dataset="users.todo" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -70,9 +69,9 @@ values ('Dima','qwerty007');]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="4798c589-18d2-40f6-887d-559a72ce5d90" active="true">
+      <connection id="62d9a6fb-3ae0-42b9-b025-dabdfc85ac58" active="true">
         <database>
-          <name value="todo_base" />
+          <name value="Connection" />
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
@@ -83,13 +82,13 @@ values ('Dima','qwerty007');]]></console>
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="postgres" />
+          <database value="todo_base" />
           <type value="USER_PASSWORD" />
           <user value="mugichu" />
           <deprecated-pwd value="OTA3OTI5U2tpZmNo" />
         </database>
         <properties>
-          <auto-commit value="true" />
+          <auto-commit value="false" />
         </properties>
         <ssh-settings>
           <active value="false" />

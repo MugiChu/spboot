@@ -14,17 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e88d2c7d-3384-44a9-ae4f-c530c5d872ce" name="Default Changelist" comment="spboot">
-      <change afterPath="$PROJECT_DIR$/../.idea/ToDo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/controllers/BlogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/TodoListApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ToDo/todolist/TodoListApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601910056739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spboot">
+      <created>1602048371591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602048371591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,14 +169,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1043" y="450" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601900801770" />
-    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog" timestamp="1602006570361">
+    <state x="716" y="219" width="488" height="593" key="DBNavigator.ConnectionInfoDialog" timestamp="1602062820931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602006570361" />
-    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog" timestamp="1602006608889">
+    <state x="716" y="219" width="488" height="593" key="DBNavigator.ConnectionInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602062820931" />
+    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog" timestamp="1602049598379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602006608889" />
+    <state x="674" y="377" width="824" height="558" key="DBNavigator.DatasetFilterDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602049598379" />
+    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog" timestamp="1602062805762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="158" width="924" height="678" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602062805762" />
     <state x="859" y="340" width="377" height="458" key="DBNavigator.ResultSetRecordViewerDialog" timestamp="1602006746131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,22 +189,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602006697582" />
-    <state width="901" height="293" key="GridCell.Tab.0.bottom" timestamp="1601910999366">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1602064883554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="901" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999366" />
-    <state width="901" height="293" key="GridCell.Tab.0.center" timestamp="1601910999365">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602064883554" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1602064883554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="901" height="293" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999365" />
-    <state width="901" height="293" key="GridCell.Tab.0.left" timestamp="1601910999364">
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602064883554" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1602064883554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="901" height="293" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999364" />
-    <state width="901" height="293" key="GridCell.Tab.0.right" timestamp="1601910999365">
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602064883554" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1602064883554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="901" height="293" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601910999365" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602064883554" />
     <state width="632" height="184" key="LargeValuePreview.QUERY" timestamp="1602005857523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="459" y="290" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602002131611" />
-    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1601910062778">
+    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1602048376240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601910062778" />
+    <state x="1043" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602048376239" />
     <state x="658" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1601998257098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
